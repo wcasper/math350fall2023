@@ -7,7 +7,7 @@ Welcome to Math 350!  In this class, we will learn about
 
 ## First steps
 
-Please familiarize yourself with the [syllabus (link)](https://wcasper.github.io/math430spring2023/extras/syllabus) and the Canvas site for this course.
+Please familiarize yourself with the [syllabus (link)](https://wcasper.github.io/math350fall2023/extras/syllabus) and the Canvas site for this course.
 
 Please reach out as soon as possible if you have any questions or concerns.
 
