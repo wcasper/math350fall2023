@@ -5,13 +5,13 @@ title:  Lecture 2
 
 ## Topics
 
-* Completeness Axiom
-* Extended real numbers
-* Limits of sequences
+* Introduction
+* Natural numbers
+* Rational numbers
+* Real numbers
 
 ## Reading assignment
 
-Pages 20-38
-
+Pages 1-19
 
 
