@@ -22,9 +22,8 @@ You will be graded based on *completion* of all of the assigned problems, along 
 * 1.1, 1.3, and 1.6
 * 2.4 and 2.5
 * 3.6 
-* 4.1 (a-j)
-* 4.5, 4.11, 4.12, 4.14
-* 7.3 (a-j)
-* 8.2, 8.4, 8.5, 8.9
+* 4.1 (a-j), 4.5, 4.11, 4.12, 4.14
+* 7.3 (a-j), 7.5
+* 8.2, 8.4, 8.5, 8.7 8.9
 
 
