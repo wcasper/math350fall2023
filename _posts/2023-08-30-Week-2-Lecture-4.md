@@ -5,12 +5,13 @@ title:  Lecture 4
 
 ## Topics
 
-* Limits of sequences
-* A discussion about proofs
+* Limit theorems for sequences
+* Monotone sequences
+* Cauchy sequences
 
 ## Reading assignment
 
-Pages 20-44
+Pages 42-62
 
 
 

@@ -12,7 +12,7 @@ title:  Lecture 3
 
 ## Reading assignment
 
-Pages 20-38
+Pages 20-42
 
 
 
