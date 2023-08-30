@@ -20,17 +20,18 @@ For sake of clarity, we set $$s=\lim s_n$$ and $$t=\lim t_n$$.
 
 First we will prove (1).
 Let $$\epsilon > 0$$.
-Then there exists $$N$$ such that whenever $$n>N$$ we have $$\lvert s_n-s\rvert < \epsilon/\max(\lvert k\rvert, 1).$$
+If $$k=0$$, the statement is obvious, so we will assume otherwise.
+Then there exists $$N$$ such that whenever $$n>N$$ we have $$\lvert s_n-s\rvert < \epsilon/\lvert k\rvert.$$
 It follows that 
 
-$$\lvert ks_n-ks\rvert \leq k\lvert s_n-s\rvert < k\epsilon/\max(\lvert k\vert, 1) \leq \epsilon. $$
+$$\lvert ks_n-ks\rvert \leq k\lvert s_n-s\rvert < k\epsilon/\lvert k\rvert \leq \epsilon. $$
 
 Since $$\epsilon$$ was arbitrary, we conclude that $$\lim (ks_n) = ks$$.
 
 Now we will prove (2).
 Let $$\epsilon > 0$$.
 Then there exist $$M$$ and $$N$$ with both $$n>M$$ implying $$\lvert s_n-s\rvert < \epsilon/2$$ and $$n>N$$ implying $$\lvert t_n-t\rvert < \epsilon/2$$.
-It follows from the triangle inequality that
+It follows from the triangle inequality that for $$n > \max(M,N)$$
 
 $$\lvert s_n+t_n-(s+t)\rvert \leq \lvert s_n-s\rvert + \lvert t_n-t\rvert < \epsilon/2+\epsilon/2 = \epsilon.$$
 
@@ -69,9 +70,9 @@ For sake of clarity, we set $$s=\lim s_n$$ and $$t=\lim t_n$$.
 Let $$\epsilon > 0$$.
 
 By the previous Lemma, we can choose $$k>0$$ with $$\lvert s_n\rvert \leq k$$ for all $$n$$.
-Then there exist $$M$$ and $$N$$ with both $$n>M$$ implying $$\lvert s_n-s\rvert < \frac{\epsilon}{2\max(\lvert t\rvert,1)}$$ and $$n>N$$ implying $$\lvert t_n-t\rvert < \epsilon/2k$$.
+Then there exist $$M$$ and $$N$$ with both $$n>M$$ implying $$\lvert s_n-s\rvert < \frac{\epsilon}{2\lvert t\rvert)}$$ (or $$ < \epsilon/2 $$ if $$t=0$$) and $$n>N$$ implying $$\lvert t_n-t\rvert < \epsilon/2k$$.
 
-Then the triangle inequality tells us that
+Then the triangle inequality tells us that for $$n > \max(M,N)$$
 
 $$\begin{align}
 \lvert s_nt_n - st\rvert
@@ -105,7 +106,7 @@ By our definition of convergence, there exists $$N_0$$ such that when $$n>N_0$$ 
 Consequently $$\lvert t_n\rvert > \lvert t\rvert /2$$, making $$1/\lvert t_nt\rvert  < 2/t^2$$.
 
 Also there exists $$N_1>0$$ such that $$n>N_1$$ implies that $$\lvert t-t_n\rvert < \epsilon t^2/2$$.
-As a consequence
+As a consequence, when $$n>\max(N_0,N_1)$$
 
 $$\lvert 1/t_n - 1/t \rvert  = \lvert t-t_n\rvert/\lvert t_nt \rvert < \epsilon$$
 
