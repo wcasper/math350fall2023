@@ -54,11 +54,67 @@ which exists by the rsult of the previous Lemma!
 **Proof:** Can you prove this?  Can you find non-unique examples?
 :black_square_button:
 
+**Exercise:**
+
+Can you find a rational number whose decimal expansion is
+
+$$0.123123123123123123123\dots$$
+
 
 ## Lim sup and lim inf
 
-Given any sequence, we can 
+Given a sequence $$(s_n)$$ which is bounded above, for any $$N$$ the expression
 
-**Definition:** We define 
+$$\sup\{s_n: n\geq N\}$$
+
+always makes sense and gets smaller as $$N$$ increases.  Likewise, if $$(s_n)$$ is bounded below then
+
+$$\inf\{s_n: n\geq N\}$$
+
+always makes sense and gets larger as $$N$$ increases.
+Note: this relies on the **completeness axiom** to make sense!
+
+In each case, our theorem about the convergence of monotone sequences implies that each of the numbers in the following definition exists
+
+**Definition:** If $$(s_n)$$ is a sequence which is bounded above, then we define 
+
+$$\limsup s_n = \lim_{N\rightarrow\infty} \sup \{s_n: n\geq N\}.$$
+$$\liminf s_n = \lim_{N\rightarrow\infty} \inf \{s_n: n\geq N\}.$$
+
+
+**Theorem:** Suppose that $$(s_n)$$ is a sequence.  Then
+
+$$\liminf s_n \leq \limsup s_n$$
+
+with equality if and only if the limit exists.  In that case
+
+$$\liminf s_n = \lim s_n = \limsup s_n.$$
+
+**Proof:**
+
+Let $$m_N = \inf\{s_n: n\geq N\}$$ and $$M_N = \sup\{s_n: n\geq N\}$$.
+Then $$m_N\leq s_N\leq M_N$$ by definition.  Consequently, we know that $$M_N-m_N\geq 0$$, forcing
+
+$$\limsup s_n - \liminf s_n = \lim_N(M_N-m_N)\geq 0$$.
+
+In particular, $$\liminf s_n \leq \limsup s_n$$.
+
+If we have equality, then the Squeeze Theorem tells us that
+
+$$\liminf s_n = \lim s_n = \limsup s_n.$$
+
+Conversely, suppose $$\lim s_n$$ exists and is equal to $$s$$.
+Then for all $$\epsilon > 0$$ there exists an $$N$$ such that
+
+$$n > N\rightarrow \lvert s_n-s <  \epsilon.$$
+
+Consequently,
+
+$$s-\epsilon < m_N \leq \liminf s_N \leq \limsup s_N \leq M_N < s+\epsilon.$$
+
+In other words, we see that both $$\liminf s_n$$ and $$\limsup s_n$$ are both in the interval $$(s-\epsilon,s+\epsilon)$$.  Since this is true for every $$\epsilon$$ we can conclude that $$s=\liminf s_N = \limsup s_N$$.
+
+:black_square_button:
+
 
 

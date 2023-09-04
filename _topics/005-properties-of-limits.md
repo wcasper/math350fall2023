@@ -116,6 +116,37 @@ Now for the more general case, we can apply the previous theorem to the product 
 
 :black_square_button:
 
+**Theorem (Squeeze Theorem):**
+
+Suppose that $$(s_n)$$, $$(t_n)$$ and $$(u_n)$$ are all sequences with $$s_n\leq t_n\leq u_n$$ for all but finitely many $$n$$.  Assume moreover that $$(s_n)$$ and $$(u_n)$$ converge to the same value.  Then  $$t_n$$ converges and
+
+$$\lim s_n = \lim t_n = \lim u_n$$.
+
+**Proof:**
+
+Let $$L$$ be the limit of $$(s_n)$$ and let $$\epsilon > 0$$.
+
+Then we can choose $$N_1$$ and $$N_2$$ with $$\lvert s_n-L\rvert < \epsilon/3$$ whenevery $$n> N_1$$ and $$\lvert u_n-L\rvert < \epsilon/3$$ whenever $$n > N/3$$.
+Furthermore, we can choose $$N_3$$ with $$s_n\leq t_n\leq u_n$$ whenever $$n>N_3$$.
+
+Therefore for $$n>\max(N_1,N_2,N_3)$$ we have $$s_n\leq t_n\leq u_n$$ we know
+
+$$\begin{align}
+\lvert t_n-L\rvert 
+ & \leq \lvert t_n-s_n+s_n-L\rvert\\
+ & \leq \lvert t_n-s_n \rvert + \lvert s_n-L\rvert\\
+ & \leq \lvert u_n-s_n \rvert + \lvert s_n-L\rvert\\
+ & \leq \lvert u_n-L+L-s_n \rvert + \lvert s_n-L\rvert\\
+ & \leq \lvert u_n-L\rvert +\lvert L-s_n \rvert + \lvert s_n-L\rvert < \epsilon.
+\end{align}$$
+
+Since $$\epsilon$$ was arbitrary, this proves $$\lim t_n = L$$.
+
+:black_square_button:
+
+
+**Exercise:**  Try to prove that if $$(s_n)$$ is a convergent sequence of nonnegative numbers, then $$\lim s_n$$ is also nonnegative.
+
 
 ## Infinite limits
 
