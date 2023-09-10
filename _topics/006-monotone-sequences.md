@@ -13,7 +13,7 @@ title: Monotone sequences
 
 Suppose that $$(s_n)$$ is a monotone increasing bounded sequence.  Then the set $$A = \{s_n: n\in\mathbb N\}$$ is bounded above, and thus has a supremum $$s$$ by the completeness axiom.
 
-Let $$\epsilon > 0$$.  Then $$s-\epsilon$$ is less than $$s$$ and therefore not an upper bound of $$A$$.  In particular there must exists an integer $$N$$ such that $$s_N > s-\psilon$$.
+Let $$\epsilon > 0$$.  Then $$s-\epsilon$$ is less than $$s$$ and therefore not an upper bound of $$A$$.  In particular there must exists an integer $$N$$ such that $$s_N > s-\epsilon$$.
 It follows that for any $$n\geq N$$ we have $$s_n\geq s_N>s-\epsilon$$ and therefore
 
 $$\lvert s_n-s\rvert = s-s_n  < \epsilon.$$
