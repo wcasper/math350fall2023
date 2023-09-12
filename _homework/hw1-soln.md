@@ -228,7 +228,25 @@ This implies that $$\sup(A+B)\geq\sup(A)+\sup(B)$$.
 
 Combining both parts, we conclude that $$\sup(A+B)=\sup(A)+\sup(B)$$.
 
-* (b) For any set $$C$$, let $$-C = \{-c: c\in C\}$$.  Note that for any bounded set $$C$$, $$\inf(C)=-\sup(-C)$$.  Also observe $$(-A)+(-B)=-(A+B)$$.  Therefore, by using the result of (a), we find
+* (b) For any bounded set $$C$$, let $$-C = \{-c: c\in C\}$$.  Note that
+
+$$\inf(-C)\leq -c\leq \sup(-C)\ \forall\ c\in C.$$
+
+Multiplying everything by $$-1$$, we get 
+
+$$-\sup(-C)\leq c\leq -\inf(-C) \forall\ c\in C.$$
+
+This makes $$-\sup(-C)$$ a lower bound for $$C$$ and $$-\inf(-C)$$ an upper bound for $$C$$.  Therefore
+
+$$-\sup(-C)\leq \inf(C)\leq\sup(C)\leq-\inf(-C)$$.
+
+The same inequality works for any set $$C$$, so it also works if we switch our initial set $$C$$ with $$-C$$.  This gives the inequality
+
+$$-\sup(C)\leq \inf(-C)\leq\sup(-C)\leq-\inf(C)$$.
+
+Combining these two inequalities, we obtain $$\sup(-C)=-\inf(C)$$ and $$\inf(-C)=-\sup(C)$$.
+
+Thn since $$(-A)+(-B)=-(A+B)$$, the result of part (a) tells us
 
 $$\inf(A)+\inf(B) = -(\sup(-A)+\sup(-B)) = -\sup(-(A+B)) = \inf(A+B).$$
 
