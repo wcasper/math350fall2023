@@ -24,7 +24,7 @@ Do the following book problems.
 * 11.2, 11.4, 11.8
 * 12.3 (a-f), 12.6, 12.8, 12.12
 
-Also do the following two problems.
+Also do the following three problems.
 
 **Problem A:**  Let $$(r_n)$$ be a sequence where each rational number appears at least once.  Prove that if $$t$$ is any real number, then there exists a subsequence of $$(r_n)$$ which converges to $$t$$.
 
