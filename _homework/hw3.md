@@ -30,6 +30,8 @@ Also do the following three problems.
 
 **Problem B:**  Suppose that $$(a_n)$$ is a sequence which converges to $$a$$ and that $$(s_n)$$ is a sequence with the property that for all $$k\in\mathbb{N}$$ there is a subsequence of $$s_n$$ which converges to $$a_k$$.  Prove that there is a subsequence of $$s_n$$ which converges to $$a$$.
 
+[Hint: use the property that a number $$x$$ is the limit of a subsequence of $$(s_n)$$ if and only if for all $$\epsilon>0$$ the set $$\{n\in\mathbb{N}: |s_n-x| <  \epsilon\}$$ is infinite.]
+
 **Problem C:**  Construct examples of each of the following:
 
 * a sequence of numbers $$(s_n)$$ with $$\limsup s_n = -\infty$$
