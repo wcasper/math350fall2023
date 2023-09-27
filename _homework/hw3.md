@@ -22,11 +22,18 @@ You will be graded based on *completion* of all of the assigned problems, along 
 Do the following book problems.
 
 * 11.2, 11.4, 11.8
+* 12.3 (a-f), 12.6, 12.8, 12.12
 
 Also do the following two problems.
 
 **Problem A:**  Let $$(r_n)$$ be a sequence where each rational number appears at least once.  Prove that if $$t$$ is any real number, then there exists a subsequence of $$(r_n)$$ which converges to $$t$$.
 
 **Problem B:**  Suppose that $$(a_n)$$ is a sequence which converges to $$a$$ and that $$(s_n)$$ is a sequence with the property that for all $$k\in\mathbb{N}$$ there is a subsequence of $$s_n$$ which converges to $$a_k$$.  Prove that there is a subsequence of $$s_n$$ which converges to $$a$$.
+
+**Problem C:**  Construct examples of each of the following:
+
+* a sequence of numbers $$(s_n)$$ with $$\limsup s_n = -\infty$$
+* a sequence of numbers $$(s_n)$$ with $$\limsup s_n = +\infty$$
+* a sequence of **rational** numbers $$(r_n)$$ with $$\limsup r_n = \sqrt{3}$$ and $$\liminf r_n = \sqrt{2}$$
 
 
