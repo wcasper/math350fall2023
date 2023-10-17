@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Homework 4
-permalink: /homework/hw4
+permalink: /homework/hw4-soln
 ---
 
 ### Directions
