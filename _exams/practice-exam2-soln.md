@@ -70,7 +70,7 @@ Thus $$\sum b_k$$ satisfies the Cauchy Criterion and must converge.
 
 * (c) Prove that if $$\lvert b_n\rvert\leq a_n$$ for all $$n$$ and $$\sum_{n=1}^\infty a_n$$ converges, then $$\sum_{n=1}^\infty b_n$$ is absolutely convergent.
 
-Since $$\lvert b_n\rvert\leq a_n$$ for all $$n$$, and $$\sum_{n=1}^\infty a_n$$ converges, the Comparison Test implies that $$\sum_{n=1}^\infty \lvert b_n\rvert converges.
+Since $$\lvert b_n\rvert\leq a_n$$ for all $$n$$, and $$\sum_{n=1}^\infty a_n$$ converges, the Comparison Test implies that $$\sum_{n=1}^\infty \lvert b_n\rvert$$ converges.
 Hence $$\sum_{n=1}^\infty b_n$$ is absolutely convergent.
 
 
@@ -83,7 +83,7 @@ $$\limsup e^{a_n} = e^{\limsup a_n}.$$
 Note that $$e^x$$ is monotone increasing, so it preserves inequalities!
 
 Now let $$M_N = \sup\{a_n: n\geq N\}$$ and $$K_N = \sup\{e^{a_n}: n\geq N\}.$$
-We know that $$M_N \geq a_n$$ for all $$n\geq N$$ and therefore e^{M_N}\geq e^{a_n}$$ for all $$n\geq N$$.  Hence $$e^{M_N}$$ is an upper bound for $$\{e^{a_n}: n\geq N\}$$ and must be greater than the least upper bound, ie. $$K_N\leq e^{M_N}.$$
+We know that $$M_N \geq a_n$$ for all $$n\geq N$$ and therefore $$e^{M_N}\geq e^{a_n}$$ for all $$n\geq N$$.  Hence $$e^{M_N}$$ is an upper bound for $$\{e^{a_n}: n\geq N\}$$ and must be greater than the least upper bound, ie. $$K_N\leq e^{M_N}.$$
 
 Additionally $$\ln(x)$$ is a monotone increasing function, so it preserves inequalities!
 We know that $$e^{a_n}\leq K_N$$ for all $$n\geq N$$ and therefore $$a_n\leq \ln(K_N)$$ for all $$n\geq N$$.
