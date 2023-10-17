@@ -44,7 +44,7 @@ By the Comparison Test, it follows that $$\sum \frac{n-1}{n^2}$$ diverges.
 
 **Solution to 14.4:**
 
-* (a) Note $$\frac{1}{(n+(-1)^n)^2} \leq \frac{1}{(n-1)^2}$$.  Since $$\sum_{n=2}^\infty \frac{1}{(n-1)^2} = \frac_{n=1}^\infty \frac{1}{n^2}$$ converges to $$\pi^2/6$$, so the Comparison Test implies that the series converges.
+* (a) Note $$\frac{1}{(n+(-1)^n)^2} \leq \frac{1}{(n-1)^2}$$.  Since $$\sum_{n=2}^\infty \frac{1}{(n-1)^2} = \sum_{n=1}^\infty \frac{1}{n^2}$$ converges to $$\pi^2/6$$, so the Comparison Test implies that the series converges.
 * (b) This is a telescoping sum.  The $$N$$'th partial sum is $$s_N = \sqrt{N+1} - 1$$, and since the partial sums diverge, the series does not converge.
 * (c) We calculate 
 
