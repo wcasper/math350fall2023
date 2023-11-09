@@ -55,7 +55,7 @@ Give an example of each of the following, or explain why it doesn't exist.
 
 Consider the function
 
-$$f(x) = \left\begin{array}{cc} -1 & x < 0\\x-1 & x > 0\\ 0 & x=0\end{array}\right.$$
+$$f(x) = \left\lbrace\begin{array}{cc} -1 & x < 0\\x-1 & x > 0\\ 0 & x=0\end{array}\right.$$
 
 * (a) Write down the $$\epsilon,\delta$$ definition of the limit as $$x$$ approaches $$a$$ along $$S$$ of $$f(x)$$
 * (b) If $$S=(-1,1)\backslash\{0\}$$, carefully show that the limit as $$x$$ approaches $$a$$ along $$S$$ of $$f(x)$$ exists and explain what it is
