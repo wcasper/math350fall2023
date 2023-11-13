@@ -12,7 +12,7 @@ Note: you may NOT use a theorem or result from class to prove something when it 
 ## Problem 1 (True or False)
 For each of the following, write TRUE if the statement is true and FALSE if the statement is false.  NO explanation is needed.
 
-* (a) If $$R>0$$ then the radius of convergence of $$\sum_{n=0}^\infty \frac{x^k}{R^k}$$ is $$R$$
+* (a) If $$R>0$$ then the radius of convergence of $$\sum_{k=0}^\infty \frac{x^k}{R^k}$$ is $$R$$
 
 * (b) There exists a function $$f(x)$$ which is discontinuous at every rational number and continuous at every irrational number
 
