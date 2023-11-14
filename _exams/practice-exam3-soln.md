@@ -100,7 +100,7 @@ A function $$f(x)$$ is continuous at $$x=a$$ if for all $$\epsilon > 0$$ there e
 
 * (b) Suppose that $$f(x)$$ is continuous at every point in $$(-1,1)$$ and that for every $$x\in (-1,1)$$ we have $$f(x^2) = f(x)$$.  Prove that $$f(x)$$ is a constant function on $$(-1,1)$$.
 
-Suppose that $$x\in (-1,1)$$.  An inductive arguement proves that $$f(x) = f(x^{2^n))$$ for all $$n$$.  Moreover $$\lim x^{2^n} = 0$$.  Since $$f(x)$$ is continuous, it follows that $$\lim f(x^{2^n}) = f(0)$$.  Thus
+Suppose that $$x\in (-1,1)$$.  An inductive arguement proves that $$f(x) = f(x^{2^n})$$ for all $$n$$.  Moreover $$\lim x^{2^n} = 0$$.  Since $$f(x)$$ is continuous, it follows that $$\lim f(x^{2^n}) = f(0)$$.  Thus
 
 $$f(x) = \lim f(x) = \lim f(x^{2^n}) = f(0).$$
 
@@ -197,7 +197,7 @@ Then for $$n>m>N$$ we have
 
 $$\lvert f_{n}(x)- f_m(x)\rvert < \frac{M}{2^{m-2}} = \epsilon.$$
 
-Since $$\epsilon > 0$$ was arbitrary, this proves that $$(f_n(x))$ satisfies the Cauchy criterion on $$[0,1]$$.
+Since $$\epsilon > 0$$ was arbitrary, this proves that $$(f_n(x))$$ satisfies the Cauchy criterion on $$[0,1]$$.
 This proves that $$(f_n(x))$$ converges uniformly to some function $$f_n(x)$$ on $$[0,1]$$.
 Since each $$f_n(x)$$ is continuous, it follows that $$f(x)$$ is continuous on $$[0,1]$$.
 
