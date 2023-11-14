@@ -1,0 +1,256 @@
+% Exam Template for UMTYMP and Math Department courses
+%
+% Using Philip Hirschhorn's exam.cls: http://www-math.mit.edu/~psh/#ExamCls
+%
+% run pdflatex on a finished exam at least three times to do the grading table on front page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% These lines can probably stay unchanged, although you can remove the last
+% two packages if you're not making pictures with tikz.
+\documentclass[11pt]{exam}
+\RequirePackage{amssymb, amsfonts, amsmath, latexsym, verbatim, xspace, setspace}
+\RequirePackage{tikz, pgflibraryplotmarks}
+
+% By default LaTeX uses large margins.  This doesn't work well on exams; problems
+% end up in the "middle" of the page, reducing the amount of space for students
+% to work on them.
+\usepackage[margin=1in]{geometry}
+\usepackage{enumerate}
+\usepackage{amsthm}
+
+\theoremstyle{definition}
+\newtheorem{soln}{Solution}
+
+% Here's where you edit the Class, Exam, Date, etc.
+\newcommand{\class}{Math 350 Section 1}
+\newcommand{\term}{Fall 2023}
+\newcommand{\examnum}{Exam II}
+\newcommand{\examdate}{October 17, 2023}
+\newcommand{\timelimit}{1 Hour 50 Minutes}
+\newcommand{\ol}[1]{\overline{#1}}
+
+% For an exam, single spacing is most appropriate
+\singlespacing
+% \onehalfspacing
+% \doublespacing
+
+% For an exam, we generally want to turn off paragraph indentation
+\parindent 0ex
+
+\begin{document} 
+
+% These commands set up the running header on the top of the exam pages
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\class}{\examnum\ - Page \thepage\ of \numpages}{\examdate}
+\runningheadrule
+
+\begin{flushright}
+\begin{tabular}{p{2.8in} r l}
+\textbf{\class} & \textbf{Name (Print):} & \makebox[2in]{\hrulefill}\\
+\textbf{\term} &&\\
+\textbf{\examnum} & \textbf{Student ID:}&\makebox[2in]{\hrulefill}\\
+\textbf{\examdate} &&\\
+\textbf{Time Limit: \timelimit} % & Teaching Assistant & \makebox[2in]{\hrulefill}
+\end{tabular}\\
+\end{flushright}
+\rule[1ex]{\textwidth}{.1pt}
+
+
+This exam contains \numpages\ pages (including this cover page) and
+\numquestions\ problems.  Check to see if any pages are missing.  Enter
+all requested information on the top of this page, and put your initials
+on the top of every page, in case the pages become separated.\\
+
+You may \textit{not} use your books or notes on this exam.
+
+You are required to show your work on each problem on this exam.  The following rules apply:\\
+
+\begin{minipage}[t]{3.7in}
+\vspace{0pt}
+\begin{itemize}
+
+%\item \textbf{If you use a ``fundamental theorem'' you must indicate this} and explain
+%why the theorem may be applied.
+
+\item \textbf{Organize your work}, in a reasonably neat and coherent way, in
+the space provided. Work scattered all over the page without a clear ordering will 
+receive very little credit.  
+
+\item \textbf{Mysterious or unsupported answers will not receive full
+credit}.  A correct answer, unsupported by calculations, explanation,
+or algebraic work will receive no credit; an incorrect answer supported
+by substantially correct calculations and explanations might still receive
+partial credit.  This especially applies to limit calculations.
+
+\item If you need more space, use the back of the pages; clearly indicate when you have done this.
+
+\item \textbf{Box Your Answer} where appropriate, in order to clearly indicate what you consider the answer to the question to be.
+\end{itemize}
+
+Do not write in the table to the right.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{2.3in}
+\vspace{0pt}
+%\cellwidth{3em}
+\gradetablestretch{2}
+\vqword{Problem}
+\addpoints % required here by exam.cls, even though questions haven't started yet.	
+\gradetable[v]%[pages]  % Use [pages] to have grading table by page instead of question
+
+\end{minipage}
+\newpage % End of cover page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% See http://www-math.mit.edu/~psh/#ExamCls for full documentation, but the questions
+% below give an idea of how to write questions [with parts] and have the points
+% tracked automatically on the cover page.
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{questions}
+
+\addpoints
+
+\question[10]\mbox{}
+\textbf{TRUE or FALSE!}  Write  TRUE if the statement is true.  Otherwise, write FALSE.  Your response should be in ALL CAPS.  No justification is required.
+\begin{enumerate}[(a)]
+\item  
+If $\lim a_n = 0$ then $\sum_{n=1}^\infty a_n$ converges
+\vspace{1.3in}
+\item
+If $\limsup a_n=\liminf a_n$ then $a_n$ is the constant sequence
+\vspace{1.3in}
+\item
+A bounded sequence must have a Cauchy subsequence
+\vspace{1.3in}
+\item
+An absolutely convergent series must be convergent
+\vspace{1.3in}
+\item  
+There exists a sequence $(s_n)$ where the value of every real number appears at least once
+\vspace{1.3in}
+\end{enumerate}
+
+\newpage
+\question[10]\mbox{}
+
+Let $(a_n)$ and $(b_n)$ be bounded sequences.
+\begin{enumerate}[(a)]
+\item Prove
+
+$$\limsup (a_n+b_n)\leq \limsup a_n + \limsup b_n$$
+\vspace{2.5in}
+\item Prove
+
+$$\limsup a_n + \liminf b_n \leq\limsup (a_n+b_n)$$
+\vspace{2.5in}
+
+\item
+
+Give an explicit example of two sequences $(a_n)$ and $(b_n)$ for which 
+
+$$\limsup (a_n+b_n)\neq \limsup a_n + \limsup b_n.$$
+
+\end{enumerate}
+
+
+\newpage
+\question[10]\mbox{}
+
+Let $r\in\mathbb{R}$.
+\begin{enumerate}[(a)]
+\item Write down a closed form expression for the sum
+
+$$\sum_{k=0}^{n-1} r^k = 1 + r + r^2 + \dots + r^{n-1}.$$
+
+\vspace{1in}
+\item Use (a) to prove that if $|r| < 1$ then
+
+$$\sum_{k=0}^\infty r^k = \frac{1}{1-r}.$$
+\vspace{2in}
+
+\item Find an exact fractional expression for
+
+$$0.2023202320232023\dots = 0.\overline{2023}$$
+
+\end{enumerate}
+
+\newpage
+\question[10]\mbox{}
+
+\begin{enumerate}[(a)]
+\item  Write down the definition of $\sum_{n=1}^\infty a_n$ converging.
+\vspace{1in}
+\item  Let $k\in\mathbb R$ and suppose that $\sum_{n=1}^\infty a_n$ converges.  Prove that $\sum_{n=1}^\infty ka_n$ converges.
+\vspace{2in}
+\item  Suppose $\sum_{n=1}^\infty a_n$ and $\sum_{n=1}^\infty b_n$ converge.  Prove $\sum_{n=1}^\infty (a_n+b_n)$ converges.
+\vspace{2in}
+\item  Suppose $\sum_{n=1}^\infty a_n$ and $\sum_{n=1}^\infty b_n$ are absolutely convergent.  Prove $\sum_{n=1}^\infty a_nb_n$ converges.
+\end{enumerate}
+
+\newpage
+\question[10]\mbox{}
+
+For each of the following series, determine if it diverges, converges, or converges absolutely.
+Carefully justify your answer.
+
+\begin{enumerate}[(a)]
+\item  
+$$\sum_{n=1}^\infty \frac{n}{n^3+1}$$
+\vspace{0.9in}
+\item
+$$\sum_{n=1}^\infty \frac{2^n}{n!}$$
+\vspace{0.9in}
+\item
+$$\sum_{n=1}^\infty \frac{5^n}{n^n}$$
+\vspace{0.9in}
+\item
+$$\sum_{n=1}^\infty \frac{\cos(n\pi)}{n}$$
+\vspace{0.9in}
+\item
+$$\sum_{n=1}^\infty \frac{n!}{n^n}$$
+\end{enumerate}
+
+\newpage
+\question[10]\mbox{}
+
+Let $\mathbb{I}$ be the set of all irrational numbers in the interval $[0,1]$.
+Consider the function
+
+$$f: I\rightarrow [0,1]$$
+
+defined via decimal expansions by
+
+$$f(0.d_1d_2d_3d_4d_5d_6\dots) = 0.d_1d_3d_5d_7\dots$$
+
+\begin{enumerate}[(a)]
+\item Prove that $f(x)$ is not injective.
+\vspace{2.5in}
+\item Prove that $f(x)$ is surjective.
+\vspace{2.5in}
+\item If we replace $I$ with the interval $[0,1]$ above, prove that the function is no longer well-defined.  Carefully explain.
+\end{enumerate}
+
+\newpage
+\question[10]\mbox{}
+
+
+\begin{enumerate}[(a)]
+\item Write down the $\epsilon$,$\delta$-definition of continuity.
+\vspace{1in}
+\item Consider the function
+$$f(x) = \left\lbrace\begin{array}{cc}x, & x\in \mathbb{Q}\\0 & x\notin\mathbb{Q}\end{array}\right.$$
+Let $a\in\mathbb{R}$ with $a\neq 0$.  Prove that $f(x)$ is not continuous at $x=a$.
+\vspace{3in}
+\item Prove that $f(x)$ is continuous at $x=0$.
+\end{enumerate}
+
+\end{questions}
+
+\end{document}
+
