@@ -45,12 +45,12 @@ $$n\log(n) - \frac{3}{2} < p_n < 2n\log(n).$$
 * (a) Write down the definition of a function $$f(x)$$ being continuous at a point $$a\in\text{Dom}(f)$$.
 * (b) Prove that the function
 
-$$f(x) = \left\lbrace{\begin{array}{cc}x\sin(1/x), & x\neq 0\\0, & x=0\end{array}\right.$$
+$$f(x) = \left\lbrace\begin{array}{cc}x\sin(1/x), & x\neq 0\\0, & x=0\end{array}\right.$$
 
 is continuous at $$x=0$$.
 * (c) Prove that the function
 
-$$g(x) = \left\lbrace{\begin{array}{cc}\sin(1/x), & x\neq 0\\0, & x=0\end{array}\right.$$
+$$g(x) = \left\lbrace\begin{array}{cc}\sin(1/x), & x\neq 0\\0, & x=0\end{array}\right.$$
 
 is not continuous at $$x=0$$.
 
