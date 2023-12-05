@@ -65,7 +65,7 @@ is not continuous at $$x=0$$.
 * (a) State the Mean Value Theorem
 * (b) State the Intermediate Value Theorem
 * (c) Prove that the polynomial 
-$$f(x) = x^{2023} + x^15 + 3x^5 + 2x - 6$$
+$$f(x) = x^{2023} + x^{15} + 3x^5 + 2x - 6$$
 has exactly one real root, and that this root must lie in the interval $$(0,1)$$.
 
 ## Problem 7
