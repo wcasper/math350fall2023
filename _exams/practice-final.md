@@ -16,7 +16,7 @@ For each of the following, write TRUE if the statement is true and FALSE if the 
 * (b) If $$\lim s_n=0$$, and $$f(x)$$ is continuous everywhere then $$\lim f(s_n) = 0$$
 * (c) Every sequence has a convergent subsequence
 * (d) If $$f(x)$$ is integrable on $$[a,b]$$, then it must be continuous on $$[a,b]$$
-* (e) If $$f(x)$$ differentiable on $$\mathbb{R}$$, then $$f'(x)$$ is continuous on $$\mahbb{R}$$
+* (e) If $$f(x)$$ differentiable on $$\mathbb{R}$$, then $$f'(x)$$ is continuous on $$\mathbb{R}$$
 
 ## Problem 2
 
