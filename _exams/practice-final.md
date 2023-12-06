@@ -32,7 +32,7 @@ Give an example of each of the following, or explain why it doesn't exist.
 
 The following problem was famously considered by Euler, so blame him.
 
-Let $$p_1=2$$, $$p_2=3$$, $$p_3=5$$, $$p_4=7$$, $$p_5=11$$ be the sequence of all prime numbers in increasing order.  Determine the convergence or divergence of each of the following series.  Carefully justify your work
+Let $$p_1=2$$, $$p_2=3$$, $$p_3=5$$, $$p_4=7$$, $$p_5=11$$, and so on be the sequence of all prime numbers in increasing order.  Determine the convergence or divergence of each of the following series.  Carefully justify your work
 
 * (a) $$\sum_{n=0}^\infty \frac{(-1)}{p_n}$$
 * (b) $$\sum_{n=0}^\infty \frac{1}{p_n^2}$$
