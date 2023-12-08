@@ -103,9 +103,7 @@ This means that the limit $$\lim_{x\rightarrow a}\frac{f(x)-f(a)}{x-a}$$ exists.
 
 * (b) Prove using only basic definitions and algebra that $$f(x) = x^3$$ is differentiable a $$x=8$$.
 
-Let $$\epsilon > 0$$.  Choose $$\delta = $$
-
-Then we calculate
+We calculate
 
 $$\lim_{x\rightarrow 8}\frac{f(x)-f(8)}{x-8} = \lim_{x\rightarrow 8}\frac{x^3-8^3}{x-8} = \lim_{x\rightarrow 8}\frac{(x-8)(x^2+8x+8^2)}{x-8}$$.
 
