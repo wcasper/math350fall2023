@@ -73,7 +73,7 @@ has exactly one real root, and that this root must lie in the interval $$(0,1)$$
 Let $$f(x)$$ be a bounded function on the interval $$[a,b]$$.
 
 * (a) Write the definition of the lower Darboux sum $$L(f,P)$$ of $$f(x)$$ on a partition $$P = \{a_0,\dots, a_n\}$$ on $$[a,b]$$
-* (b) Write the definition of the upper Darboux sum $$U(f)$$ of $$f(x)$$ on $$[a,b]$$
+* (b) Write the definition of the upper Darboux integral $$U(f)$$ of $$f(x)$$ on $$[a,b]$$
 * (c) Prove that $$L(f,P)\leq U(f,P)$$ for any partition $$P$$ of $$[a,b]$$
 * (d) Prove that if $$P$$ and $$P'$$ are any two partitions of $$[a,b]$$ then, $$L(f,P)\leq U(f,P')$$.  You can use the fact that if $$P$$ and $$Q$$ are partitions and $$P\subseteq Q$$, then $$L(f,P)\leq L(f,Q)$$ and $$U(f,Q)\leq U(f,P)$$.
 * (c) Prove that $$L(f)\leq U(f)$$.  
