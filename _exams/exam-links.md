@@ -10,5 +10,6 @@ permalink: /exams/exam-links
 * [Exam 2 Solutions PDF](exam2-soln.pdf)
 * [Exam 3 PDF](exam3.pdf) and [Exam 3 TEX](exam3.tex)
 * [Exam 3 Solutions PDF](exam3-soln.pdf)
+* [Final PDF](final.pdf) and [Final TEX](final.tex)
 
 
