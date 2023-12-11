@@ -19,6 +19,17 @@ Suppose that the sequence converges pointwise on $$[a,b]$$ to a function $$f(x)$
 
 ## Problem 2
 
+Suppose that $$g(x)$$ is a nonnegative, integrable function on $$[a,b]$$ and that
+
+$$f(x) = \left\lbrace\begin{array}{cc}
+g(x), & x \in \mathbb{Q}\\
+0, & x\notin \mathbb{Q}
+\end{array}right.$$
+
+Prove that $$U(f) = \int_a^b g(x)dx.$$
+
+## Problem 3
+
 Let $$E = \{1/n^2: n\in\mathbb{N}\}$$.  Consider the function
 
 $$f(x) = \left\lbrace\begin{array}{cc}
