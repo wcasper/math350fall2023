@@ -24,7 +24,7 @@ Suppose that $$g(x)$$ is a nonnegative, integrable function on $$[a,b]$$ and tha
 $$f(x) = \left\lbrace\begin{array}{cc}
 g(x), & x \in \mathbb{Q}\\
 0, & x\notin \mathbb{Q}
-\end{array}right.$$
+\end{array}\right.$$
 
 Prove that $$U(f) = \int_a^b g(x)dx.$$
 
@@ -35,7 +35,7 @@ Let $$E = \{1/n^2: n\in\mathbb{N}\}$$.  Consider the function
 $$f(x) = \left\lbrace\begin{array}{cc}
 1, & x \in E\\
 0, & x\notin E
-\end{array}right.$$
+\end{array}\right.$$
 
 Determine if $$f(x)$$ is Riemann integrable on $$[0,1]$$, and if so what it's Darboux integral is.
 Carefully justify your work.
