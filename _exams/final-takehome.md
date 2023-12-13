@@ -43,7 +43,7 @@ $$f(x) = \left\lbrace\begin{array}{cc}
 Determine if $$f(x)$$ is Riemann integrable on $$[0,1]$$, and if so what it's Darboux integral is.
 Carefully justify your work.
 
-**Hint:** Try choosing a partition whose points are very close to the elements of $$E$$.
+**Hint:** Try choosing a partition whose points closely surround the elements of $$E$$.
 For example, let $$0 < \epsilon < 1$$ and consider the partition
 
 $$P = \left\lbrace \frac{1-\epsilon/(n+1)^2}{n^2}: n\in\mathbb{N}\right\rbrace\cup \left\lbrace \frac{1+\epsilon/(n+1)^2}{n^2}: n\in\mathbb{N}\right\rbrace$$
