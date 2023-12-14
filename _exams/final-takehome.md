@@ -49,5 +49,9 @@ For example, consider the partition with $$2n+1$$ points
 $$P = \{a_0=0,a_1,b_1,a_2,b_2,a_3,b_3,\dots,a_n,b_n=1\},$$
 
 where $$a_k = \frac{(k+1)^2-(1/n)}{k^2(k+1)^2}$$ for $$1\leq k \leq n$$ and $$b_k = \frac{(k+1)^2 + (1/n)}{k^2(k+1)^2}$$ for $$1\leq k < n$$.
-What is $$U(f,P)$$ for his partition (it will depend on $$n$$)?  As $$n$$ gets larger, what does that imply about $$U(f)$$, the infimum over all partitions? 
+What is the value of 
+
+$$U(f,P) = (a_1-a_0)\sup\{f(x): a_0\leq x\leq a_1\} + \sum_{k=1}^n (b_k-a_k)\sup\{f(x): a_k\leq x\leq b_k\} + \sum_{k=1}^{n} (a_k-b_{k-1})\sup\{f(x): b_{k-1}\leq x\leq a_k\}$$
+
+for this partition (it will depend on $$n$$)?  As $$n$$ gets larger, what does that imply about $$U(f)$$, the infimum over all partitions? 
 
