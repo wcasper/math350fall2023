@@ -48,7 +48,7 @@ For example, consider the partition with $$2n$$ points
 
 $$P = \{b_0=0,a_1,b_1,a_2,b_2,a_3,b_3,\dots,a_{n-1},b_{n-1},a_n=1\},$$
 
-where $$a_k = \frac{(n-k+2)^2-(1/n)}{(n-k+1)^2(n-k+2)^2}$$ for $$1\leq k \leq n$$ and $$b_k = \frac{(n-k+2)^2 + (1/n)}{(n-k+1)^2(n-k+2)^2}$$ for $$1\leq k < n$$, so that
+where $$a_k = \frac{(n-k+2)^2-(1/n)}{(n-k+1)^2(n-k+2)^2}$$ for $$1\leq k < n$$ and $$b_k = \frac{(n-k+2)^2 + (1/n)}{(n-k+1)^2(n-k+2)^2}$$ for $$1\leq k \leq n$$, so that
 
 $$b_0 = 0 < a_1 < \frac{1}{n^2} < b_1 < a_2 < \frac{1}{(n-1)^2} < b_2 < \dots < b_{n-2} < a_{n-1} < \frac{1}{2^2} < b_{n-1} < a_n = 1.$$
 
