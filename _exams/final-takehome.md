@@ -44,9 +44,10 @@ Determine if $$f(x)$$ is Riemann integrable on $$[0,1]$$, and if so what it's Da
 Carefully justify your work.
 
 **Hint:** Try choosing a partition whose points closely surround the elements of $$E$$.
-For example, let $$0 < \epsilon < 1$$ and consider the partition
+For example, consider the partition with $$2n+1$$ points
 
-$$P = \left\lbrace \frac{1-\epsilon/(n+1)^2}{n^2}: n\in\mathbb{N}\right\rbrace\cup \left\lbrace \frac{1+\epsilon/(n+1)^2}{n^2}: n\in\mathbb{N}\right\rbrace$$
+$$P = \{a_0=0,a_1,b_1,a_2,b_2,a_3,b_3,\dots,a_n,b_n=1\},$$
 
-What is $$U(f,P)$$ for his partition?  As $$\epsilon$$ gets smaller, what does that imply about the infimum over all partitions $$U(f)$$?
+where $$a_k = \frac{(k+1)^2-(1/n)}{k^2(k+1)^2}$$ for $$1\leq k \leq n$$ and $$b_k = \frac{(k+1)^2 + (1/n)}{k^2(k+1)^2}$$ for $$1\leq k < n$$.
+What is $$U(f,P)$$ for his partition (it will depend on $$n$$)?  As $$n$$ gets larger, what does that imply about the infimum over all partitions $$U(f)$$?
 
