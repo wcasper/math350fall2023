@@ -44,7 +44,7 @@ Determine if $$f(x)$$ is Riemann integrable on $$[0,1]$$, and if so what it's Da
 Carefully justify your work.
 
 **Hint:** Try choosing a partition whose points closely surround the elements of $$E$$.
-For example, consider the partition with $$2n+1$$ points
+For example, consider the partition with $$2n$$ points
 
 $$P = \{b_0=0,a_1,b_1,a_2,b_2,a_3,b_3,\dots,a_{n-1},b_{n-1},a_n=1\},$$
 
