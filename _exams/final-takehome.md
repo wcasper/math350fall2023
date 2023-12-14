@@ -54,7 +54,7 @@ $$b_0 = 0 < a_1 < \frac{1}{n^2} < b_1 < a_2 < \frac{1}{(n-1)^2} < b_2 < \dots < 
 
 What is the value of 
 
-$$U(f,P) = \sum_{k=1}^n (b_k-a_k)\sup\{f(x): a_k\leq x\leq b_k\} + \sum_{k=1}^{n-1} (a_k-b_{k-1})\sup\{f(x): b_{k-1}\leq x\leq a_k\}$$
+$$U(f,P) = \sum_{k=1}^{n-1} (b_k-a_k)\sup\{f(x): a_k\leq x\leq b_k\} + \sum_{k=1}^{n} (a_k-b_{k-1})\sup\{f(x): b_{k-1}\leq x\leq a_k\}$$
 
 for this partition (it will depend on $$n$$)?  As $$n$$ gets larger, what does that imply about $$U(f)$$, the infimum over all partitions? 
 
