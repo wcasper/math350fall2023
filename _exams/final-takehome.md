@@ -48,7 +48,7 @@ For example, consider the partition with $$2n+1$$ points
 
 $$P = \{a_0=0,a_1,b_1,a_2,b_2,a_3,b_3,\dots,a_n,b_n=1\},$$
 
-where $$a_k = \frac{(k+1)^2-(1/n)}{k^2(k+1)^2}$$ for $$1\leq k \leq n$$ and $$b_k = \frac{(k+1)^2 + (1/n)}{k^2(k+1)^2}$$ for $$1\leq k < n$$.
+where $$a_k = \frac{(k+1)^2-(1/n)}{k^2(k+1)^2}$$ for $$1\leq k \leq n$$ and $$b_k = \frac{(k+1)^2 + (1/n)}{k^2(k+1)^2}$$ for $$1\leq k < n$$, so that $$a_k < 1/k^2 < b_k < a_{k+1}$$ for $$k=1,\dots,n-1$$.
 What is the value of 
 
 $$\begin{align}
