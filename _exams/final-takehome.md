@@ -46,14 +46,15 @@ Carefully justify your work.
 **Hint:** Try choosing a partition whose points closely surround the elements of $$E$$.
 For example, consider the partition with $$2n+1$$ points
 
-$$P = \{b_0=0,a_1,b_1,a_2,b_2,a_3,b_3,\dots,a_n,b_n=1\},$$
+$$P = \{b_0=0,a_1,b_1,a_2,b_2,a_3,b_3,\dots,a_{n-1},b_{n-1},a_n=1\},$$
 
-where $$a_k = \frac{(k+1)^2-(1/n)}{k^2(k+1)^2}$$ for $$1\leq k \leq n$$ and $$b_k = \frac{(k+1)^2 + (1/n)}{k^2(k+1)^2}$$ for $$1\leq k < n$$, so that $$a_k < 1/k^2 < b_k < a_{k+1}$$ for $$k=1,\dots,n-1$$.
+where $$a_k = \frac{(n-k+2)^2-(1/n)}{(n-k+1)^2(n-k+2)^2}$$ for $$1\leq k \leq n$$ and $$b_k = \frac{(n-k+2)^2 + (1/n)}{(n-k+1)^2(n-k+2)^2}$$ for $$1\leq k < n$$, so that
+
+$$b_0 = 0 < a_1 < \frac{1}{n^2} < b_1 < a_2 < \frac{1}{(n-1)^2} < b_2 < \dots < b_{n-2} < a_{n-1} < \frac{1}{2} < b_{n-1} < a_n = 1.$$
+
 What is the value of 
 
-$$\begin{align}
-U(f,P) = \sum_{k=1}^n (b_k-a_k)\sup\{f(x): a_k\leq x\leq b_k\} + \sum_{k=1}^{n} (a_k-b_{k-1})\sup\{f(x): b_{k-1}\leq x\leq a_k\}
-\end{align}$$
+$$U(f,P) = \sum_{k=1}^n (b_k-a_k)\sup\{f(x): a_k\leq x\leq b_k\} + \sum_{k=1}^{n-1} (a_k-b_{k-1})\sup\{f(x): b_{k-1}\leq x\leq a_k\}$$
 
 for this partition (it will depend on $$n$$)?  As $$n$$ gets larger, what does that imply about $$U(f)$$, the infimum over all partitions? 
 
