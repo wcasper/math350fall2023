@@ -137,10 +137,13 @@ We need to show that $$\sigma_{n+1} \geq \sigma_n$$ for all $$n$$.
 Since the sequence is increasing, we know that $$a_{n}\geq a_k$$ for all $$1\leq k \leq n$$.
 Using this, we calculate
 
-$$\sigma_{n+1}-\sigma_n
+$$
+\begin{align}
+\sigma_{n+1}-\sigma_n
   & = \frac{n(a_1+\dots+a_n+a_{n+1})-(n+1)(a_1+\dots+a_n)}{n(n+1)}\\
   & = \frac{na_{n+1}-(a_1+\dots+a_n)}{n(n+1)}\\
   & \leq \frac{na_{n+1}-na_n}{n(n+1)} = \frac{a_{n+1}-a_n}{n+1} \geq 0.
+\end{align}
 $$
 
 **Solution to 11.1**
